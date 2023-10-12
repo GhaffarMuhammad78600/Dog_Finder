@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DoG_Finder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dogs collection" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czb-er-0ii">
+                                <rect key="frame" x="0.0" y="59" width="328" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="KDe-r8-Km8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKK-Ed-XiT">
+                                <rect key="frame" x="333" y="59" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="FNF-50-PzF"/>
+                                    <constraint firstAttribute="width" constant="50" id="Fvd-J7-oKo"/>
+                                </constraints>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="square.grid.3x3" catalog="system"/>
+                                <connections>
+                                    <action selector="btntoggleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gyo-UJ-RXk"/>
+                                </connections>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="fca-to-qyE">
+                                <rect key="frame" x="10" y="109" width="373" height="743"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4nL-ih-a0b">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="TNo-G9-F76">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zle-JQ-0RT">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="QI3-O3-HE1"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ePY-nh-zws"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fca-to-qyE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="DSu-4R-pV4"/>
+                            <constraint firstAttribute="trailing" secondItem="fca-to-qyE" secondAttribute="trailing" constant="10" id="JfD-0R-ivg"/>
+                            <constraint firstItem="Czb-er-0ii" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Mpq-f1-HpM"/>
+                            <constraint firstItem="mKK-Ed-XiT" firstAttribute="bottom" secondItem="Czb-er-0ii" secondAttribute="bottom" id="UMG-qz-mH9"/>
+                            <constraint firstItem="mKK-Ed-XiT" firstAttribute="leading" secondItem="Czb-er-0ii" secondAttribute="trailing" constant="5" id="cXj-Xq-Xyj"/>
+                            <constraint firstAttribute="trailing" secondItem="mKK-Ed-XiT" secondAttribute="trailing" constant="10" id="dzg-d9-eBg"/>
+                            <constraint firstItem="Czb-er-0ii" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hrE-47-nXD"/>
+                            <constraint firstItem="fca-to-qyE" firstAttribute="top" secondItem="Czb-er-0ii" secondAttribute="bottom" id="r7b-HO-RcA"/>
+                            <constraint firstAttribute="bottom" secondItem="fca-to-qyE" secondAttribute="bottom" id="tn7-cM-VS6"/>
+                            <constraint firstItem="mKK-Ed-XiT" firstAttribute="top" secondItem="Czb-er-0ii" secondAttribute="top" id="y14-31-JL8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnToggle" destination="mKK-Ed-XiT" id="Txm-mS-Nib"/>
+                        <outlet property="dogsCollectionView" destination="fca-to-qyE" id="1Jb-Mj-8tb"/>
+                        <outlet property="lblTitle" destination="Czb-er-0ii" id="Owr-IT-ZF8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="square.grid.3x3" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

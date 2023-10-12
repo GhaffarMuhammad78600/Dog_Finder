@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A27E464A-3697-4F3A-B9F1-1E3704223FB7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7DEEC46-EE95-4211-8FFA-9416AC9B3230"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoG-Finder/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "fetchDogImages()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F7DEEC46-EE95-4211-8FFA-9416AC9B3230 - 61a647b8fabdd2e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Swift.String&gt;, NetworkHelper.AppError&gt;) -&gt; () in DoG_Finder.ViewController.fetchDogImages() -&gt; ()"
+                  moduleName = "DoG-Finder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadqasim/Desktop/DoG-Finder/DoG-Finder/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "F7DEEC46-EE95-4211-8FFA-9416AC9B3230 - 61a647b8fabdd2e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Swift.String&gt;, NetworkHelper.AppError&gt;) -&gt; () in DoG_Finder.ViewController.fetchDogImages() -&gt; ()"
+                  moduleName = "DoG-Finder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadqasim/Desktop/DoG-Finder/DoG-Finder/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "341">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74CB7CFE-E0B2-4AB7-9A2E-B98F0A735B35"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoG-Finder/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "fetchDogImages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7807E6F-773A-4A01-AEA5-3AE01A996F81"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetchDogImages(pageNum:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCEB52D9-8E44-475A-9D32-1019E5CE2AB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoG-Finder/DogCollection/ViewController/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "bindViews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4238EBD-F2D9-45E1-8FE8-B4440C2187FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "fetchDogImages(pageNum:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3BCF033-C3A7-440A-95B9-E0E04684A132"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "DogsVM"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B18EC15-0C5F-4724-8314-7D50F6B13030"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "fetchDogDetailWith(imageURL:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9B18EC15-0C5F-4724-8314-7D50F6B13030 - 288084dfd398d45a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoG_Finder.DogsVM.fetchDogDetailWith(imageURL: Swift.String) -&gt; Swift.Optional&lt;DoG_Finder.DogDetail&gt;"
+                  moduleName = "DoG-Finder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadqasim/Desktop/DoG-Finder/DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "566">
+               </Location>
+               <Location
+                  uuid = "9B18EC15-0C5F-4724-8314-7D50F6B13030 - 288084dfd398d414"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoG_Finder.DogsVM.fetchDogDetailWith(imageURL: Swift.String) -&gt; Swift.Optional&lt;DoG_Finder.DogDetail&gt;"
+                  moduleName = "DoG-Finder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadqasim/Desktop/DoG-Finder/DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4601939-F6B9-4CBD-A8FE-B7710CD32EAD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "fetchAllDetail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C4601939-F6B9-4CBD-A8FE-B7710CD32EAD - 421ab59ec6f19d09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoG_Finder.DogsVM.fetchAllDetail() -&gt; ()"
+                  moduleName = "DoG-Finder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadqasim/Desktop/DoG-Finder/DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "241">
+               </Location>
+               <Location
+                  uuid = "C4601939-F6B9-4CBD-A8FE-B7710CD32EAD - 421ab59ec6f19d26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoG_Finder.DogsVM.fetchAllDetail() -&gt; ()"
+                  moduleName = "DoG-Finder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadqasim/Desktop/DoG-Finder/DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "198">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E4BC577-31DD-41DF-8AD4-5CAB946BF682"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoG-Finder/DogCollection/ViewController/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB7C04D8-4D8C-4873-9274-91F02B9BEBF7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoG-Finder/DogCollection/ViewController/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AB7C04D8-4D8C-4873-9274-91F02B9BEBF7 - a74227d8fbc24f41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoG_Finder.ViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "DoG-Finder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadqasim/Desktop/DoG-Finder/DoG-Finder/DogCollection/ViewController/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "646">
+               </Location>
+               <Location
+                  uuid = "AB7C04D8-4D8C-4873-9274-91F02B9BEBF7 - a74227d8fbc24f62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoG_Finder.ViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "DoG-Finder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadqasim/Desktop/DoG-Finder/DoG-Finder/DogCollection/ViewController/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "646">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59CBB2B2-2281-40B6-84A5-90536E250F34"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "fetchAllDetail()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A95AA688-6007-4869-A017-5E94EE7EF603"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "fetchAllDetail()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E187C28-5852-4993-A3FA-08D7B38F2DF9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "saveToCoreData(dogInfo:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0E187C28-5852-4993-A3FA-08D7B38F2DF9 - e97896bb2b1723c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoG_Finder.DogsVM.saveToCoreData(dogInfo: DoG_Finder.DogDetailCore) -&gt; ()"
+                  moduleName = "DoG-Finder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadqasim/Desktop/DoG-Finder/DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "0E187C28-5852-4993-A3FA-08D7B38F2DF9 - e97896bb2b1723e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoG_Finder.DogsVM.saveToCoreData(dogInfo: DoG_Finder.DogDetailCore) -&gt; ()"
+                  moduleName = "DoG-Finder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadqasim/Desktop/DoG-Finder/DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "0E187C28-5852-4993-A3FA-08D7B38F2DF9 - e97896bb2b1723e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoG_Finder.DogsVM.saveToCoreData(dogInfo: DoG_Finder.DogDetailCore) -&gt; ()"
+                  moduleName = "DoG-Finder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmadqasim/Desktop/DoG-Finder/DoG-Finder/DogCollection/ViewModel/DogVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "247">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "datapersistence",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alexpaul/DataPersistence",
+      "state" : {
+        "revision" : "69c4bc41c4185db8a200e486e22c666dbddaee17",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "imagekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alexpaul/ImageKit",
+      "state" : {
+        "revision" : "4dadab3c0c57cefc2f9324ef5a98201dee953773",
+        "version" : "1.0.5"
+      }
+    },
+    {
+      "identity" : "networkhelperspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alexpaul/NetworkHelperSPM/",
+      "state" : {
+        "revision" : "149864c6a0aa39ada6f19cb154f12c4c30f0ddcf",
+        "version" : "1.0.6"
+      }
+    }
+  ],
+  "version" : 2
+}
