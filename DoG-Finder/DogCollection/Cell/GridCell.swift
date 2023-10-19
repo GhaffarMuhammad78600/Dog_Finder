@@ -39,6 +39,7 @@ class GridCell: UICollectionViewCell {
     
     // below function is use for  configuring image cell
     public func configureCell(with dogImage: String)  {
+        
         imgDog.getImage(with: dogImage)   { [weak self] (result) in
             switch result   {
                 

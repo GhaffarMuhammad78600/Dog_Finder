@@ -6,14 +6,17 @@ target 'DoG-Finder' do
   use_frameworks!
 
   # Pods for DoG-Finder
+  pod 'ANActivityIndicator'
 
   target 'DoG-FinderTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'ANActivityIndicator'
   end
 
   target 'DoG-FinderUITests' do
     # Pods for testing
+    pod 'ANActivityIndicator'
   end
 
 end

@@ -8,7 +8,7 @@
 import UIKit
 import Combine
 import CoreData
-//import ANActivityIndicator
+import ANActivityIndicator
 
 class ViewController: UIViewController {
 
@@ -42,6 +42,7 @@ class ViewController: UIViewController {
         dogsCollectionView.register(UINib(nibName: "ListViewCell", bundle: nil), forCellWithReuseIdentifier: "ListCell")
         
         // Set the initial layout
+        
         setCollectionViewLayout(isGridMode)
     }
     func getData() {
@@ -50,14 +51,13 @@ class ViewController: UIViewController {
         // if there is no data in coredata get it from api
         if viewModel.dogsCoreData.count == 0 {
             viewModel.fetchDogImages(pageNum: pageNumber)
-        } else {
-            dogsCollectionView.reloadData()
-        }
+        } 
     }
     
     /// Receive Response to bind with View Model
      func bindViews() {
         let viewModel = viewModel
+         
         viewModel.$isSuccess.receive(on: DispatchQueue.main).dropFirst().sink(receiveValue: { [unowned self] isSuccess in
             if isSuccess {
                 viewModel.fetchAllDetail()
@@ -81,6 +81,10 @@ class ViewController: UIViewController {
                  self.show(alert, sender: self)
              }
          }).store(in: &subscriptions)
+         
+         viewModel.$showSpinner.receive(on: DispatchQueue.main).sink(receiveValue: { showSpinner in
+             showSpinner ? ANActivityIndicatorPresenter.shared.showIndicator() :            ANActivityIndicatorPresenter.shared.hideIndicator()
+         }).store(in: &subscriptions)
     }
 
 
@@ -88,9 +92,9 @@ class ViewController: UIViewController {
     func setCollectionViewLayout(_ isGridMode: Bool) {
         let layout = UICollectionViewFlowLayout()
         if isGridMode {
-            layout.minimumLineSpacing = 10
+            layout.minimumLineSpacing = 20
             layout.minimumInteritemSpacing = 10
-            layout.itemSize = CGSize(width: (dogsCollectionView.frame.width - 30) / 2, height: 200)
+            layout.itemSize = CGSize(width: (dogsCollectionView.frame.width - 20) / 2, height: (dogsCollectionView.frame.width - 20) / 2)
         } else {
             layout.minimumLineSpacing = 10
             layout.minimumInteritemSpacing = 10
@@ -116,14 +120,12 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
           
           if isGridMode {
               guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "GridCell", for: indexPath) as? GridCell
-                  else    {
-                      fatalError()
-              }
+                  else {  fatalError()  }
               let dogDetail = viewModel.dogsCoreData[indexPath.row]
               guard let imageURL = dogDetail.dogImageURL else { fatalError() }
               cell.lblBreed.text = dogDetail.breedName
               cell.btnFavourite.setImage(UIImage(systemName: dogDetail.isFavourite! ? "heart.fill" : "heart"), for: .normal)
-              cell.configureCell(with: imageURL)
+              cell.imgDog.loadImageWithCaching(fromURL: URL(string: imageURL)!, placeholder: UIImage(named: "PlaceHolder"))
               cell.btnFavourite.tag = indexPath.item
               cell.delegate =  self
               return  cell
@@ -138,7 +140,7 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
               guard let imageURL = dogDetail.dogImageURL else { fatalError() }
               cell.lblBreed.text = dogDetail.breedName
               cell.btnFavourite.setImage(UIImage(systemName: dogDetail.isFavourite! ? "heart.fill" : "heart"), for: .normal)
-              cell.configureCell(with: imageURL)
+              cell.imgDog.loadImageWithCaching(fromURL: URL(string: imageURL)!, placeholder: UIImage(named: "PlaceHolder"))
               cell.btnFavourite.tag = indexPath.item
               cell.delegate =  self
               return  cell

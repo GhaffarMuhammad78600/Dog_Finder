@@ -1,0 +1,16 @@
+PODS:
+  - ANActivityIndicator (1.2.0)
+
+DEPENDENCIES:
+  - ANActivityIndicator
+
+SPEC REPOS:
+  trunk:
+    - ANActivityIndicator
+
+SPEC CHECKSUMS:
+  ANActivityIndicator: 44a996931d0c554cf157b31056603b23bbdbe76a
+
+PODFILE CHECKSUM: 8074eb949f9bb1dcf439cae0ae75e25ea2e02558
+
+COCOAPODS: 1.13.0

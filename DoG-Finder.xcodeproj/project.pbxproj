@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172626DCFAE07E750364D8BE /* Pods_DoG_Finder_DoG_FinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDD4DD830ABA8D473AB14B9 /* Pods_DoG_Finder_DoG_FinderUITests.framework */; };
+		756F800D01C67EA2372E60D4 /* Pods_DoG_FinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD383C2077D22ED9EEC22C5 /* Pods_DoG_FinderTests.framework */; };
+		7BACEDDF01A6CA85A4267D21 /* Pods_DoG_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFD14F9F5C5509C26F3ACDA /* Pods_DoG_Finder.framework */; };
 		D96743A72AD9C33C00FCADBC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96743A62AD9C33C00FCADBC /* Constants.swift */; };
 		D96743B02AD9C50900FCADBC /* DogModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D96743AE2AD9C50900FCADBC /* DogModel.xcdatamodeld */; };
 		D96743B32AD9D12A00FCADBC /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96743B22AD9D12A00FCADBC /* DataController.swift */; };
+		D97D99BF2ADD241B00718480 /* FavouriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D99BE2ADD241B00718480 /* FavouriteVC.swift */; };
+		D97D99C12ADD2E3600718480 /* FavouriteDogVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D99C02ADD2E3600718480 /* FavouriteDogVM.swift */; };
+		D97D99C32ADD59F700718480 /* ANASpiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D99C22ADD59F700718480 /* ANASpiner.swift */; };
+		D97D99C52ADD7C4800718480 /* ImageView + Extention .swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D99C42ADD7C4800718480 /* ImageView + Extention .swift */; };
 		D989E97D2AD8A5D400BA0C3F /* DogBreedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989E97C2AD8A5D400BA0C3F /* DogBreedModel.swift */; };
 		D989E97F2AD8A66300BA0C3F /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989E97E2AD8A66300BA0C3F /* NetworkCall.swift */; };
 		D989E9822AD8A6A300BA0C3F /* NetworkHelper in Frameworks */ = {isa = PBXBuildFile; productRef = D989E9812AD8A6A300BA0C3F /* NetworkHelper */; };
@@ -48,9 +55,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DCAFD3D4A9CFB8C9AD40AC2 /* Pods-DoG-Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoG-Finder.release.xcconfig"; path = "Target Support Files/Pods-DoG-Finder/Pods-DoG-Finder.release.xcconfig"; sourceTree = "<group>"; };
+		360639E5B0C63311CCF6BE7B /* Pods-DoG-FinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoG-FinderTests.release.xcconfig"; path = "Target Support Files/Pods-DoG-FinderTests/Pods-DoG-FinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FDD4DD830ABA8D473AB14B9 /* Pods_DoG_Finder_DoG_FinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoG_Finder_DoG_FinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFD14F9F5C5509C26F3ACDA /* Pods_DoG_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoG_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB45FA81D8ED4C3F06C1495 /* Pods-DoG-FinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoG-FinderTests.debug.xcconfig"; path = "Target Support Files/Pods-DoG-FinderTests/Pods-DoG-FinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2BB5CD4C771A7A3EE0D2685 /* Pods-DoG-Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoG-Finder.debug.xcconfig"; path = "Target Support Files/Pods-DoG-Finder/Pods-DoG-Finder.debug.xcconfig"; sourceTree = "<group>"; };
+		C7FBF639C50899480CA55691 /* Pods-DoG-Finder-DoG-FinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoG-Finder-DoG-FinderUITests.debug.xcconfig"; path = "Target Support Files/Pods-DoG-Finder-DoG-FinderUITests/Pods-DoG-Finder-DoG-FinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D96743A62AD9C33C00FCADBC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D96743AF2AD9C50900FCADBC /* DogModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DogModel.xcdatamodel; sourceTree = "<group>"; };
 		D96743B22AD9D12A00FCADBC /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		D97D99BE2ADD241B00718480 /* FavouriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVC.swift; sourceTree = "<group>"; };
+		D97D99C02ADD2E3600718480 /* FavouriteDogVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteDogVM.swift; sourceTree = "<group>"; };
+		D97D99C22ADD59F700718480 /* ANASpiner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANASpiner.swift; sourceTree = "<group>"; };
+		D97D99C42ADD7C4800718480 /* ImageView + Extention .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView + Extention .swift"; sourceTree = "<group>"; };
 		D989E97C2AD8A5D400BA0C3F /* DogBreedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedModel.swift; sourceTree = "<group>"; };
 		D989E97E2AD8A66300BA0C3F /* NetworkCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCall.swift; sourceTree = "<group>"; };
 		D989E9862AD8ACAB00BA0C3F /* DogVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogVM.swift; sourceTree = "<group>"; };
@@ -71,6 +89,8 @@
 		D9DAE7CA2AD89A56004B9FCF /* GridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCell.xib; sourceTree = "<group>"; };
 		D9DAE7CD2AD89A6D004B9FCF /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
 		D9DAE7CE2AD89A6D004B9FCF /* ListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewCell.xib; sourceTree = "<group>"; };
+		EFD383C2077D22ED9EEC22C5 /* Pods_DoG_FinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoG_FinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5223C9B23DBA3A820047E01 /* Pods-DoG-Finder-DoG-FinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoG-Finder-DoG-FinderUITests.release.xcconfig"; path = "Target Support Files/Pods-DoG-Finder-DoG-FinderUITests/Pods-DoG-Finder-DoG-FinderUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +100,7 @@
 			files = (
 				D989E9822AD8A6A300BA0C3F /* NetworkHelper in Frameworks */,
 				D989E9852AD8A6BE00BA0C3F /* ImageKit in Frameworks */,
+				7BACEDDF01A6CA85A4267D21 /* Pods_DoG_Finder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756F800D01C67EA2372E60D4 /* Pods_DoG_FinderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,18 +116,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172626DCFAE07E750364D8BE /* Pods_DoG_Finder_DoG_FinderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C64D78B56903F8DBFE384B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2BB5CD4C771A7A3EE0D2685 /* Pods-DoG-Finder.debug.xcconfig */,
+				2DCAFD3D4A9CFB8C9AD40AC2 /* Pods-DoG-Finder.release.xcconfig */,
+				C7FBF639C50899480CA55691 /* Pods-DoG-Finder-DoG-FinderUITests.debug.xcconfig */,
+				F5223C9B23DBA3A820047E01 /* Pods-DoG-Finder-DoG-FinderUITests.release.xcconfig */,
+				9EB45FA81D8ED4C3F06C1495 /* Pods-DoG-FinderTests.debug.xcconfig */,
+				360639E5B0C63311CCF6BE7B /* Pods-DoG-FinderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		54474088ADCD50FCD4B4327F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BFD14F9F5C5509C26F3ACDA /* Pods_DoG_Finder.framework */,
+				3FDD4DD830ABA8D473AB14B9 /* Pods_DoG_Finder_DoG_FinderUITests.framework */,
+				EFD383C2077D22ED9EEC22C5 /* Pods_DoG_FinderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D96743A52AD9C32D00FCADBC /* Commonn */ = {
 			isa = PBXGroup;
 			children = (
 				D96743B12AD9D10E00FCADBC /* CoreDataHelper */,
 				D9DAE7C72AD895AF004B9FCF /* NetworkManager */,
 				D96743A62AD9C33C00FCADBC /* Constants.swift */,
+				D97D99C22ADD59F700718480 /* ANASpiner.swift */,
+				D97D99C42ADD7C4800718480 /* ImageView + Extention .swift */,
 			);
 			path = Commonn;
 			sourceTree = "<group>";
@@ -141,6 +189,8 @@
 				D9DAE7A82AD8952F004B9FCF /* DoG-FinderTests */,
 				D9DAE7B22AD8952F004B9FCF /* DoG-FinderUITests */,
 				D9DAE7902AD8952C004B9FCF /* Products */,
+				3C64D78B56903F8DBFE384B7 /* Pods */,
+				54474088ADCD50FCD4B4327F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				D9DAE7962AD8952D004B9FCF /* ViewController.swift */,
+				D97D99BE2ADD241B00718480 /* FavouriteVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -226,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				D989E9862AD8ACAB00BA0C3F /* DogVM.swift */,
+				D97D99C02ADD2E3600718480 /* FavouriteDogVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -256,9 +308,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9DAE7B92AD8952F004B9FCF /* Build configuration list for PBXNativeTarget "DoG-Finder" */;
 			buildPhases = (
+				656924E14CD39DCA34A8CD9A /* [CP] Check Pods Manifest.lock */,
 				D9DAE78B2AD8952C004B9FCF /* Sources */,
 				D9DAE78C2AD8952C004B9FCF /* Frameworks */,
 				D9DAE78D2AD8952C004B9FCF /* Resources */,
+				5AC254C70B932CAF672DAF14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -277,9 +331,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9DAE7BC2AD8952F004B9FCF /* Build configuration list for PBXNativeTarget "DoG-FinderTests" */;
 			buildPhases = (
+				325872A14945175861588168 /* [CP] Check Pods Manifest.lock */,
 				D9DAE7A12AD8952F004B9FCF /* Sources */,
 				D9DAE7A22AD8952F004B9FCF /* Frameworks */,
 				D9DAE7A32AD8952F004B9FCF /* Resources */,
+				7A1856ED394EC2B4E5416328 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,9 +351,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9DAE7BF2AD8952F004B9FCF /* Build configuration list for PBXNativeTarget "DoG-FinderUITests" */;
 			buildPhases = (
+				034591D0F8DDD51F6ED2583E /* [CP] Check Pods Manifest.lock */,
 				D9DAE7AB2AD8952F004B9FCF /* Sources */,
 				D9DAE7AC2AD8952F004B9FCF /* Frameworks */,
 				D9DAE7AD2AD8952F004B9FCF /* Resources */,
+				846198118701A032DB118357 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -385,6 +443,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		034591D0F8DDD51F6ED2583E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoG-Finder-DoG-FinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		325872A14945175861588168 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoG-FinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC254C70B932CAF672DAF14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoG-Finder/Pods-DoG-Finder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoG-Finder/Pods-DoG-Finder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoG-Finder/Pods-DoG-Finder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656924E14CD39DCA34A8CD9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoG-Finder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A1856ED394EC2B4E5416328 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoG-FinderTests/Pods-DoG-FinderTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoG-FinderTests/Pods-DoG-FinderTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoG-FinderTests/Pods-DoG-FinderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		846198118701A032DB118357 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoG-Finder-DoG-FinderUITests/Pods-DoG-Finder-DoG-FinderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoG-Finder-DoG-FinderUITests/Pods-DoG-Finder-DoG-FinderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoG-Finder-DoG-FinderUITests/Pods-DoG-Finder-DoG-FinderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9DAE78B2AD8952C004B9FCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -392,15 +570,19 @@
 			files = (
 				D989E97F2AD8A66300BA0C3F /* NetworkCall.swift in Sources */,
 				D96743B32AD9D12A00FCADBC /* DataController.swift in Sources */,
+				D97D99BF2ADD241B00718480 /* FavouriteVC.swift in Sources */,
 				D9DAE7972AD8952D004B9FCF /* ViewController.swift in Sources */,
+				D97D99C12ADD2E3600718480 /* FavouriteDogVM.swift in Sources */,
 				D9DAE7932AD8952C004B9FCF /* AppDelegate.swift in Sources */,
 				D989E9872AD8ACAB00BA0C3F /* DogVM.swift in Sources */,
 				D9DAE7CF2AD89A6D004B9FCF /* ListViewCell.swift in Sources */,
 				D989E97D2AD8A5D400BA0C3F /* DogBreedModel.swift in Sources */,
 				D9DAE7952AD8952D004B9FCF /* SceneDelegate.swift in Sources */,
 				D96743B02AD9C50900FCADBC /* DogModel.xcdatamodeld in Sources */,
+				D97D99C52ADD7C4800718480 /* ImageView + Extention .swift in Sources */,
 				D9DAE7CB2AD89A56004B9FCF /* GridCell.swift in Sources */,
 				D96743A72AD9C33C00FCADBC /* Constants.swift in Sources */,
+				D97D99C32ADD59F700718480 /* ANASpiner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,11 +759,13 @@
 		};
 		D9DAE7BA2AD8952F004B9FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BB5CD4C771A7A3EE0D2685 /* Pods-DoG-Finder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DoG-Finder/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -604,11 +788,13 @@
 		};
 		D9DAE7BB2AD8952F004B9FCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DCAFD3D4A9CFB8C9AD40AC2 /* Pods-DoG-Finder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DoG-Finder/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -631,6 +817,7 @@
 		};
 		D9DAE7BD2AD8952F004B9FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB45FA81D8ED4C3F06C1495 /* Pods-DoG-FinderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -650,6 +837,7 @@
 		};
 		D9DAE7BE2AD8952F004B9FCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360639E5B0C63311CCF6BE7B /* Pods-DoG-FinderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -669,6 +857,7 @@
 		};
 		D9DAE7C02AD8952F004B9FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7FBF639C50899480CA55691 /* Pods-DoG-Finder-DoG-FinderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -686,6 +875,7 @@
 		};
 		D9DAE7C12AD8952F004B9FCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5223C9B23DBA3A820047E01 /* Pods-DoG-Finder-DoG-FinderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

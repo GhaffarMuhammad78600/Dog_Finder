@@ -4,13 +4,10 @@
 //
 //  Created by Ghaffar  on 10/12/23.
 //
-
-import Foundation
-
-
 import Foundation
 import Combine
 import CoreData
+
 
 final class DogsVM {
     
@@ -33,9 +30,10 @@ final class DogsVM {
      func fetchDogImages(pageNum: Int)  {
         let strPagNnumber = String(pageNumber + pageNum)
          pageNumber = pageNumber + pageNum
+         showSpinner = true
         DogAPIClient.fetchDogs(pageNumber: strPagNnumber) { [weak self] (result) in
             guard let self = self else { return }
-
+            showSpinner = false
             switch result  {
             case .failure(let appError):
                 print(appError)
@@ -78,7 +76,7 @@ final class DogsVM {
     }
     
     func fetchAllDetail() {
-        
+        showSpinner = true
         let context = CoreDataStack.shared.viewContext
         
         let fetchRequest: NSFetchRequest<DogDetail> = DogDetail.fetchRequest()
@@ -89,7 +87,10 @@ final class DogsVM {
             for dog in dogs {
                 dogsCoreData.append(DogDetailCore(breedName: dog.breadName, dogImageURL: dog.dogImageURL, isFavourite: dog.isFavourite) )
             }
+            showSpinner = false
+            isSuccess = true
         } catch {
+            showSpinner = false
             print("Error fetching data: \(error)")
         }
     }
@@ -110,7 +111,7 @@ final class DogsVM {
     }
     
     func markFavourite(dogInfo: DogDetailCore ) {
-        
+        showSpinner = true
         let context = CoreDataStack.shared.viewContext
 
         if let dogDetail = fetchDogDetailWith(imageURL: dogInfo.dogImageURL!) {
@@ -122,7 +123,9 @@ final class DogsVM {
             } catch {
                 print("Error updating data in Core Data: \(error)")
             }
+            
         }
+        showSpinner = true
     }
 }
 

@@ -2,7 +2,7 @@
 //  DataController.swift
 //  DoG-Finder
 //
-//  Created by Ahmad Qasim on 10/13/23.
+//  Created by Ghaffar on 10/13/23.
 //
 
 import Foundation

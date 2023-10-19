@@ -6,6 +6,10 @@
 //
 
 import XCTest
+
+
+import XCTest
+import CoreData
 @testable import DoG_Finder
 
 final class DoG_FinderTests: XCTestCase {
@@ -33,4 +37,46 @@ final class DoG_FinderTests: XCTestCase {
         }
     }
 
+}
+
+class FavoriteFunctionalityTests: XCTestCase {
+    
+    var viewModel: DogsVM!
+    var managedObjectContext: NSManagedObjectContext!
+
+    override func setUp() {
+        super.setUp()
+        // Initialize the ViewModel and create an in-memory Core Data stack for testing
+        viewModel = DogsVM()
+        let container = NSPersistentContainer(name: "YourAppName")
+        container.loadPersistentStores { (storeDescription, error) in
+            if let error = error {
+                fatalError("Unresolved error \(error)")
+            }
+        }
+        managedObjectContext = container.viewContext
+        viewModel.saveToCoreData(dogInfo: DogDetailCore(breedName: "TestBreed", dogImageURL: "testURL", isFavourite: false))
+    }
+
+    override func tearDown() {
+        // Clean up after the test
+        viewModel = nil
+        super.tearDown()
+    }
+
+    func testFavoriteFunctionality() {
+        // Check if the dog is not initially marked as favorite
+        let initialDog = viewModel.dogsCoreData.first
+        XCTAssertNotNil(initialDog)
+        XCTAssertFalse((initialDog!.isFavourite != nil))
+
+        // Mark the dog as favorite and save
+        viewModel.markFavourite(dogInfo: initialDog!)
+        XCTAssertTrue(viewModel.isMarkedFavourite)
+
+        // Fetch the dog again from Core Data
+        let favoriteDog = viewModel.fetchDogDetailWith(imageURL: "testURL")
+        XCTAssertNotNil(favoriteDog)
+        XCTAssertTrue(favoriteDog!.isFavourite)
+    }
 }

@@ -42,10 +42,10 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWA-Lv-krk">
-                        <rect key="frame" x="201" y="5" width="40" height="40"/>
+                        <rect key="frame" x="191" y="5" width="50" height="50"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="40" id="Qtd-Su-3nq"/>
-                            <constraint firstAttribute="height" constant="40" id="aRp-Mx-ibA"/>
+                            <constraint firstAttribute="width" constant="50" id="Qtd-Su-3nq"/>
+                            <constraint firstAttribute="height" constant="50" id="aRp-Mx-ibA"/>
                         </constraints>
                         <color key="tintColor" systemColor="systemCyanColor"/>
                         <state key="normal" title="Button"/>
@@ -88,7 +88,7 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="PlaceHolder" width="67" height="40.666667938232422"/>
+        <image name="PlaceHolder" width="62.333332061767578" height="35.666667938232422"/>
         <image name="heart" catalog="system" width="128" height="107"/>
         <systemColor name="systemCyanColor">
             <color red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
